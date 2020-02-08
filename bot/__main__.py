@@ -65,6 +65,8 @@ def bot_help(bot,update):
 
 /{BotCommands.LogCommand}: Get a log file of the bot. Handy for getting crash reports
 
+@symit
+
 '''
     sendMessage(help_string, bot, update)
 
